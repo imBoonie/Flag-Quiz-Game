@@ -14,11 +14,33 @@ body {
     background-color: #066464;
 }
 
+#myNav {
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#navUl {
+    display: flex;
+    list-style-type: none;
+    font-size: 2em;
+}
+
+.navLink {
+    margin:0em 1em;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.navLink:hover {
+    color:#000;
+}
 h1 {
     display: flex;
     justify-content: center;
     font-size: 70px;
-    margin: 10px 0 10px;
 }
 
 h2 {
